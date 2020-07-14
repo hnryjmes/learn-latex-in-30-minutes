@@ -1,18 +1,28 @@
-\documentclass{article}
-\include{amsmath}
+\documentclass[12pt, a4paper]{report}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
 \begin{document}
+\chapter{First Chapter}
 
-Subscripts in math mode are written as $a_b$ and superscripts are written as $a^b$. These can be combined and nested to write expressions such as
+\section{Introduction}
 
-\[ T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q} =
-T(x^{i_1}, \dots, x^{i_p}, e_{j_1}, \dots, e_{j_q}) \]
+This is the first section.
 
-We write integrals using $\int$ and fractions using $\frac{a}{b}$. Limits are placed on integrals using superscripts and subscripts:
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
 
-\[ \int_0^1 \frac{dx}{e^x} = \frac{e-1}{e} \]
+\section{Second Section}
 
-Lower case Greek letters are written as $\omega$ $\delta$ etc. while upper case Greek letters are written as $\Omega$ $\Delta$.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
 
-Mathematical operators are prefixed with a backslash as $\sin(\beta)$, $\cos(\alpha)$, $\log(x)$ etc.
+\subsection{First Subsection}
+Praesent imperdietmi nec ante. Donec ullamcorper, felis non sodales...
 
+\section*{Unnumbered Section}
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem
 \end{document}
